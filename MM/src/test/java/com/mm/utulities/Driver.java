@@ -8,8 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
 
-public class Driver {
-    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<WebDriver>();
+public class Driver {private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<WebDriver>();
 
     private Driver() {
     }
@@ -68,5 +67,4 @@ public class Driver {
             driverPool.remove();
         }
     }
-
 }

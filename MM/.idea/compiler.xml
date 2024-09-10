@@ -9,5 +9,8 @@
         <module name="MM" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="UIframework" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
