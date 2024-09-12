@@ -1,4 +1,4 @@
-
+@mm
 Feature: General Dashboard
   Background:
     When   The User opens the browser with the given url
@@ -10,6 +10,18 @@ Feature: General Dashboard
 
   Scenario:KPIPanel Overview tab Verify
     When  The user KPIPanel page verifies
-  @mm
+
   Scenario:KPIPanel Overview tab Verify Hakediş Ekranı
     When  The user KPIPanel page verifies - Hakediş
+
+  Scenario:KPIPanel Overview tab Verify Aylık Satış
+    When  The user KPIPanel page verifies-Aylık Satış
+
+  Scenario:KPIPanel Overview tab Verify Prim Analizi
+    When  The user KPIPanel page verifies- Prim Analizi
+
+  Scenario:KPIPanel Overview tab Verify Harita
+    When  The user KPIPanel page verifies- Harita
+
+  Scenario:KPIPanel Overview tab Verify Satış Analizi
+    When  The user KPIPanel page verifies- Satış Analizi

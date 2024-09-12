@@ -44,4 +44,24 @@ public class DashboardStepDefs extends BaseStep{
     public void theUserKPIPanelPageVerifiesHakediş() {
         pages.dashboard().overviewVerifiesHakedis();
     }
+
+    @When("The user KPIPanel page verifies-Aylık Satış")
+    public void theUserKPIPanelPageVerifiesAylıkSatış() {
+        pages.dashboard().overviewVerifiesAylıkSatıs();
+    }
+
+    @When("The user KPIPanel page verifies- Prim Analizi")
+    public void theUserKPIPanelPageVerifiesPrimAnalizi() {
+        pages.dashboard().overviewVerifiesAPrim_Analizi();
+    }
+
+    @When("The user KPIPanel page verifies- Harita")
+    public void theUserKPIPanelPageVerifiesHarita() {
+        pages.dashboard().overviewVerifiesHarita();
+    }
+
+    @When("The user KPIPanel page verifies- Satış Analizi")
+    public void theUserKPIPanelPageVerifiesSatışAnalizi() {
+        pages.dashboard().overviewVerifiesSatışAnalizi();
+    }
 }
