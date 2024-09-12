@@ -17,7 +17,6 @@
         <junit.version>4.13.2</junit.version>
         <bonigarcia.webdrivermanager.version>5.6.2</bonigarcia.webdrivermanager.version>
 
-
         <cucumber.java.version>7.1.0</cucumber.java.version>
         <cucumber.junit.version>7.1.0</cucumber.junit.version>
         <cucumber.reporting.version>5.3.1</cucumber.reporting.version>
