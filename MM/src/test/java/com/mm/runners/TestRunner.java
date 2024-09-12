@@ -25,7 +25,7 @@ import java.util.List;
         },
         // Hangi senaryoların çalıştırılacağını belirten etiket
         tags ="@mm",
-        features ="src/test/java/com/mm/feature",
+        features ="src/test/java/com/mm/features",
         glue  = "com/mm/stepDefs",
         dryRun = false
 )
