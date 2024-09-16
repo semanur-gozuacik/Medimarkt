@@ -79,7 +79,6 @@ public class Dashboard extends BasePage {
         driver.switchTo().defaultContent();
     }
     public void overviewVerifiesSatışAnalizi(){
-
         BrowserUtils.wait(5);
         driver.switchTo().frame(0);
         BrowserUtils.waitForVisibility(satışAnalizi,25);
