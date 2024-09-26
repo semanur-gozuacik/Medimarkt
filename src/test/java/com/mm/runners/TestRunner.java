@@ -24,7 +24,7 @@ import java.util.List;
                 "rerun:target/rerun.txt"
         },
         // Hangi senaryoların çalıştırılacağını belirten etiket
-        tags ="@mm2",
+        tags ="@mm",
         features ="src/test/java/com/mm/features",
         glue  = "com/mm/stepDefs",
         dryRun = false
