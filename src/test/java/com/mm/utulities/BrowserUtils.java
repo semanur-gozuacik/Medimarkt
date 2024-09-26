@@ -346,6 +346,11 @@ public class BrowserUtils {
         String classAttribute = button.getAttribute("class");
         return !classAttribute.contains("disabled");
     }
+
+    public static void scrollToBottom(WebDriver driver) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+    }
 }
 
 
